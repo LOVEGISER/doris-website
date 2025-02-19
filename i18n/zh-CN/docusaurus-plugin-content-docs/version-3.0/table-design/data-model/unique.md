@@ -105,7 +105,7 @@ PROPERTIES (
 
 ## 数据插入与存储
 
-在明细表中，Key 列不仅会进行排序，还会基于 Key 列进行去重，插入数据后，新写入的数据会覆盖 Key 列相同的记录。
+在主键模型表中，Key 列不仅会进行排序，还会基于 Key 列进行去重，插入数据后，新写入的数据会覆盖 Key 列相同的记录。
 
 ![unique-key-model-insert](/images/table-desigin/unique-key-model-insert.png)
 
